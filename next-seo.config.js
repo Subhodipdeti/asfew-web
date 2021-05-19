@@ -9,7 +9,7 @@ const SEO = {
   openGraph: {
     type: 'website',
     locale: 'en_IE',
-    url: 'https://firebasestorage.googleapis.com/v0/b/neoium-5477b.appspot.com/o/posts%2Ft3.svg?alt=media&token=19924c73-c2ce-42a0-b8e4-a35b3d84119b',
+    url: 'wah.bhaiya',
     title,
     description,
     images: [
