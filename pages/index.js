@@ -46,7 +46,7 @@ export default function Example() {
         setPageIsMounted(true)
         const map = new mapboxgl.Map({
             container: "my-map",
-            style: "mapbox://styles/mapbox/dark-v9",
+            style: "mapbox://styles/mapbox/streets-v11",
             center: [88.1800603, 22.5737997],
             zoom: 12
         });
@@ -148,7 +148,7 @@ export default function Example() {
                                                                 height={50}
                                                                 width={50}
                                                                 layout='intrinsic'
-                                                                src="https://firebasestorage.googleapis.com/v0/b/neoium-5477b.appspot.com/o/posts%2Flogo.png?alt=media&token=61e9775a-f34d-4d94-8382-4cc14761411a"
+                                                                src="https://firebasestorage.googleapis.com/v0/b/neoium-5477b.appspot.com/o/posts%2Fasfew-logo-removebg-preview.png?alt=media&token=ff907cf2-3b22-40df-a157-6cb4081a7626"
                                                             />
                                                         </a>
                                                         <div className="-mr-2 flex items-center md:hidden">
@@ -268,25 +268,7 @@ export default function Example() {
                 <div id="Features" class="min-w-screen min-h-screen bg-gray-100 flex items-center justify-center px-5 py-5">
                     <div class="bg-gray-100 rounded-3xl shadow-xl w-full overflow-hidden">
                         <div class="md:flex w-full">
-                            {/* <div class="hidden md:block w-1/2 bg-gradient-to-r from-gray-900 to-gray-400 py-10 px-10">
-                            <Image
-                                layout="responsive"
-                                src="https://firebasestorage.googleapis.com/v0/b/neoium-5477b.appspot.com/o/posts%2Ft3.svg?alt=media&token=19924c73-c2ce-42a0-b8e4-a35b3d84119b"
-                                alt="Picture of the author"
-                                width={500}
-                                height={500}
-                            />
-                        </div> */}
-
                             <div id="my-map" class="lg:w-1/2 lg:h-screen md:w-full h-96 py-10 px-10">
-                                {/* <Image
-                                    layout="responsive"
-                                    src="https://firebasestorage.googleapis.com/v0/b/neoium-5477b.appspot.com/o/posts%2Ft3.svg?alt=media&token=19924c73-c2ce-42a0-b8e4-a35b3d84119b"
-                                    alt="Picture of the author"
-                                    width={500}
-                                    height={500}
-                                /> */}
-
                             </div>
                             <div class="w-full md:w-1/2">
                                 <div class="flex items-center min-h-screen bg-white">
@@ -355,14 +337,14 @@ export default function Example() {
 
                                 </div>
                             </div>
-                            <div class="md:w-full lg:w-1/2 overlay">
-                                {/* <Image
+                            <div class="md:w-full lg:w-1/2">
+                                <Image
                                     layout="responsive"
                                     src="https://media.gettyimages.com/photos/construction-industry-architects-and-engineers-working-together-picture-id1042316762?k=6&m=1042316762&s=612x612&w=0&h=yiv2k4vV862FJ0DFm1jYOY9ZB2ukN8qobggH5-gImG8="
                                     alt="Picture of the author"
                                     width={500}
                                     height={500}
-                                /> */}
+                                />
                             </div>
                         </div>
                     </div>
@@ -377,23 +359,11 @@ export default function Example() {
                                     height={80}
                                     width={80}
                                     layout='fixed'
-                                    src="https://firebasestorage.googleapis.com/v0/b/neoium-5477b.appspot.com/o/posts%2Flogo.png?alt=media&token=61e9775a-f34d-4d94-8382-4cc14761411a"
+                                    src="https://firebasestorage.googleapis.com/v0/b/neoium-5477b.appspot.com/o/posts%2Fasfew-logo-removebg-preview.png?alt=media&token=ff907cf2-3b22-40df-a157-6cb4081a7626"
                                 />
 
                                 <p class="opacity-60">Biparnna Para, Alampur, West Bengal 711302</p>
                             </div>
-                            {/* <div class="w-full sm:w-1/5 flex flex-col space-y-4">
-                            <a class="opacity-60">About Us</a>
-                            <a class="opacity-60">Responsibilities</a>
-                            <a class="opacity-60">Out Services</a>
-                            <a class="opacity-60">Contact</a>
-                        </div>
-                        <div class="w-full sm:w-1/5 flex flex-col space-y-4">
-                            <a class="opacity-60">Disclaimer</a>
-                            <a class="opacity-60">Testimonials</a>
-                            <a class="opacity-60">Privacy Policy</a>
-                            <a class="opacity-60">Terms of Service</a>
-                        </div> */}
                             <div class="w-full sm:w-1/5 pt-6 flex items-end mb-1">
                                 <div class="flex flex-row space-x-4">
                                     <i class="fab fa-facebook bg-white"></i>
